@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Univers Studio Oran | Beauty Salon, Spa & Extension de Cils Luxury</title>
+    <title>Univers Studio Oran | Beauty Salon & Extension de Cils Luxury</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -110,17 +110,19 @@
             
             <!-- Brand Logo -->
             <a href="#" class="flex items-center space-x-3 group">
-                <img src="IMG_0691.PNG" alt="Univers Studio Logo" class="w-16 h-17 object-contain">
+                <img src="IMG_0691.PNG" alt="logo" class="w-16 h-17 object-contain">
+                <div class="flex flex-col">
+
+                </div>
             </a>
 
             <!-- Desktop Links -->
             <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-plum-900/80">
                 <a href="#about" class="hover:text-roseGold transition-colors">Philosophie</a>
                 <a href="#quality" class="hover:text-roseGold transition-colors">Charte Qualité</a>
-                <a href="#services" class="hover:text-roseGold transition-colors"> Prestations</a>
+                <a href="#services" class="hover:text-roseGold transition-colors">Tarifs & Prestations</a>
                 <a href="#portfolio" class="hover:text-roseGold transition-colors">Portfolio</a>
                 <a href="#reviews" class="hover:text-roseGold transition-colors">Avis Clients</a>
-                <a href="#location" class="hover:text-roseGold transition-colors">Localisation</a>
             </nav>
 
             <!-- Action Buttons -->
@@ -145,10 +147,9 @@
             <div class="flex flex-col space-y-4 font-medium text-plum-900">
                 <a href="#about" onclick="toggleMobileMenu()" class="text-lg">Philosophie</a>
                 <a href="#quality" onclick="toggleMobileMenu()" class="text-lg">Charte Qualité & Hygiène</a>
-                <a href="#services" onclick="toggleMobileMenu()" class="text-lg">Services </a>
+                <a href="#services" onclick="toggleMobileMenu()" class="text-lg">Services & Tarifs</a>
                 <a href="#portfolio" onclick="toggleMobileMenu()" class="text-lg">Galerie Instagram</a>
                 <a href="#reviews" onclick="toggleMobileMenu()" class="text-lg">Avis Clients</a>
-                <a href="#location" onclick="toggleMobileMenu()" class="text-lg">Localisation & Contact</a>
                 <hr class="border-nude-200">
                 <a href="https://www.instagram.com/univers_studio31/" target="_blank" class="flex items-center gap-3 text-plum-900">
                     <i class="fa-brands fa-instagram text-roseGold text-xl"></i>
@@ -162,6 +163,7 @@
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -170,16 +172,16 @@
                 <div class="lg:col-span-7 text-center lg:text-left space-y-6">
                     <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blush border border-nude-300 text-xs font-semibold uppercase tracking-widest text-plum-900">
                         <span class="w-2 h-2 rounded-full bg-roseGold animate-pulse"></span>
-                        Le Cocon de la Beauté Féminine & Spa à Oran
+                        Le Cocon de la Beauté Féminine à Oran
                     </div>
 
                     <h1 class="font-serif-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-plum-900 leading-[1.08]">
                         Révélez votre regard & <br/>
-                        <span class="italic font-normal text-roseGold">sublimez votre bien-être.</span>
+                        <span class="italic font-normal text-roseGold">sublimez votre allure.</span>
                     </h1>
 
                     <p class="text-plum-900/75 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
-                        Bienvenue chez <strong>Univers Studio</strong>. Un institut exclusif dédié aux extensions de cils haute précision, à l'onglerie d'art, aux soins du visage et à notre univers <strong>Spa & Massages relaxation</strong>.
+                        Bienvenue chez <strong>Univers Studio</strong>. Un institut exclusif dédié aux extensions de cils haute précision, à l'onglerie d'art, au maquillage et aux soins esthétiques d'exception. Un environnement raffiné, intime et 100% sécurisé.
                     </p>
 
                     <!-- CTAs -->
@@ -190,7 +192,7 @@
                         </button>
                         <a href="#services" class="w-full sm:w-auto bg-white hover:bg-nude-100 text-plum-900 font-semibold px-8 py-4 rounded-full shadow-md transition-all duration-300 border border-nude-300 flex items-center justify-center gap-2">
                             <i class="fa-solid fa-list-check text-roseGold"></i>
-                            <span>Découvrir nos Prestations </span>
+                            <span>Découvrir nos Tarifs</span>
                         </a>
                     </div>
 
@@ -201,8 +203,8 @@
                             <p class="text-xs text-plum-900/60 font-medium">Hypoallergénique & Douce</p>
                         </div>
                         <div>
-                            <div class="text-roseGold font-bold text-lg font-serif-title">Espace Spa VIP</div>
-                            <p class="text-xs text-plum-900/60 font-medium">Détente & Massages</p>
+                            <div class="text-roseGold font-bold text-lg font-serif-title">Zero Paquets</div>
+                            <p class="text-xs text-plum-900/60 font-medium">Respect du Cil Naturel</p>
                         </div>
                         <div>
                             <div class="text-roseGold font-bold text-lg font-serif-title">Hygiène 100%</div>
@@ -216,23 +218,23 @@
                     <div class="relative mx-auto max-w-md lg:max-w-none">
                         <!-- Main Frame Image -->
                         <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
-                            <img src="photo_5922571940990226650_y" alt="Univers Studio Oran Lash Beauty Salon" class="w-full h-[490px] object-cover hover:scale-105 transition-transform duration-700">
+                            <img src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&q=80&w=800" alt="Univers Studio Oran Lash Beauty Salon" class="w-full h-[490px] object-cover hover:scale-105 transition-transform duration-700">
                             <div class="absolute inset-0 bg-gradient-to-t from-plum-900/60 via-transparent to-transparent"></div>
                             
                             <div class="absolute bottom-6 left-6 right-6 text-white space-y-1">
-                                <span class="text-[10px] tracking-widest font-bold uppercase text-roseGold">Studio & Spa Exclusif Oran</span>
-                                <h3 class="font-serif-title text-2xl font-bold">Un Moment de Sérénité Absolue.</h3>
+                                <span class="text-[10px] tracking-widest font-bold uppercase text-roseGold">Studio Exclusif Oran</span>
+                                <h3 class="font-serif-title text-2xl font-bold">Un Regard Sublime, Sans Inconfort.</h3>
                             </div>
                         </div>
 
                         <!-- Floating Badge 1 -->
                         <div class="absolute -bottom-6 -left-6 z-20 glass-card p-4 rounded-2xl shadow-xl flex items-center gap-3 max-w-[220px]">
                             <div class="w-10 h-10 rounded-full bg-roseGold/20 flex items-center justify-center text-roseGold shrink-0">
-                                <i class="fa-solid fa-spa text-lg"></i>
+                                <i class="fa-solid fa-gem text-lg"></i>
                             </div>
                             <div>
-                                <p class="text-xs font-bold text-plum-900">Espace Relaxant</p>
-                                <p class="text-[11px] text-plum-900/70">Soins & Massages</p>
+                                <p class="text-xs font-bold text-plum-900">Certifié Premium</p>
+                                <p class="text-[11px] text-plum-900/70">Produits haut de gamme</p>
                             </div>
                         </div>
 
@@ -251,14 +253,15 @@
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="py-20 bg-white border-y border-nude-200">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
             <span class="text-xs uppercase tracking-[0.3em] text-roseGold font-bold">L'Engagement Univers Studio</span>
             <h2 class="font-serif-title text-3xl sm:text-4xl md:text-5xl font-bold text-plum-900">
-                Empowerment, Confort & Excellence Esthétique
+                Empouvoirment, Confort & Excellence Esthétique
             </h2>
             <p class="text-plum-900/80 text-base sm:text-lg leading-relaxed font-light max-w-3xl mx-auto">
-                À <strong>Univers Studio Oran</strong>, nous croyons qu'une prestation de beauté et de bien-être doit être une parenthèse de pure relaxation. Découvrez nos soins esthétiques haute fidélité ainsi que notre rituel Spa conçu pour ressourcer le corps et l'esprit.
+                À <strong>Univers Studio Oran</strong>, nous croyons qu'une prestation de beauté doit être un moment de pure détente et d'affirmation de soi. Nous avons réinventé nos protocoles pour éliminer tous les inconvénients des prestations classiques : soins doux, hygiène stricte et haute tenue.
             </p>
             <div class="flex justify-center items-center space-x-6 text-plum-900/30 pt-2">
                 <span class="h-px w-16 bg-nude-300"></span>
@@ -268,6 +271,7 @@
         </div>
     </section>
 
+    <!-- Quality Section -->
     <section id="quality" class="py-24 bg-plum-900 text-white relative overflow-hidden">
         <div class="absolute top-0 right-0 w-96 h-96 bg-roseAccent/10 rounded-full blur-3xl pointer-events-none"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -306,16 +310,6 @@
 
                 <div class="glass-dark p-8 rounded-3xl space-y-4 hover:border-roseGold/60 transition-all">
                     <div class="w-12 h-12 rounded-full bg-roseGold/20 border border-roseGold/40 flex items-center justify-center text-roseGold text-xl">
-                        <i class="fa-solid fa-hot-tub-person"></i>
-                    </div>
-                    <h3 class="font-serif-title text-2xl font-bold">Rituel Spa & Huiles Bio</h3>
-                    <p class="text-xs text-white/70 leading-relaxed font-light">
-                        Huiles essentielles pures et ambiance relaxante aux bougies parfumées pour une déconnexion mentale et musculaire complète.
-                    </p>
-                </div>
-
-                <div class="glass-dark p-8 rounded-3xl space-y-4 hover:border-roseGold/60 transition-all">
-                    <div class="w-12 h-12 rounded-full bg-roseGold/20 border border-roseGold/40 flex items-center justify-center text-roseGold text-xl">
                         <i class="fa-solid fa-sparkles"></i>
                     </div>
                     <h3 class="font-serif-title text-2xl font-bold">Hygiène & Stérilisation</h3>
@@ -324,16 +318,27 @@
                     </p>
                 </div>
 
+                <div class="glass-dark p-8 rounded-3xl space-y-4 hover:border-roseGold/60 transition-all">
+                    <div class="w-12 h-12 rounded-full bg-roseGold/20 border border-roseGold/40 flex items-center justify-center text-roseGold text-xl">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="font-serif-title text-2xl font-bold">Accueil & Écoute Privilégiée</h3>
+                    <p class="text-xs text-white/70 leading-relaxed font-light">
+                        Nous prenons le temps d'analyser vos envies avant chaque prestation pour un résultat sur mesure et harmonieux.
+                    </p>
+                </div>
+
             </div>
 
         </div>
     </section>
 
+    <!-- Services Section -->
     <section id="services" class="py-24">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div class="text-center space-y-4 mb-14">
-                <span class="text-xs uppercase tracking-[0.3em] text-roseGold font-bold">Carte des Soins & Prestations</span>
+                <span class="text-xs uppercase tracking-[0.3em] text-roseGold font-bold">Carte des Soins & Tarifs</span>
                 <h2 class="font-serif-title text-4xl sm:text-5xl font-bold text-plum-900">
                     Prestations Sublimes & Transparence
                 </h2>
@@ -350,9 +355,6 @@
                 <button onclick="filterCategory('lashes', this)" class="tab-btn bg-white hover:bg-nude-100 text-plum-900 border border-nude-300 px-6 py-2.5 rounded-full text-xs font-semibold transition-all">
                     Cils & Sourcils
                 </button>
-                <button onclick="filterCategory('spa', this)" class="tab-btn bg-white hover:bg-nude-100 text-plum-900 border border-nude-300 px-6 py-2.5 rounded-full text-xs font-semibold transition-all">
-                    Spa & Massages
-                </button>
                 <button onclick="filterCategory('nails', this)" class="tab-btn bg-white hover:bg-nude-100 text-plum-900 border border-nude-300 px-6 py-2.5 rounded-full text-xs font-semibold transition-all">
                     Onglerie & Gel
                 </button>
@@ -367,7 +369,7 @@
             <!-- Services Cards Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="servicesGrid">
                 
-                <!-- Service Item 1: Lashes -->
+                <!-- Service Item 1: Lashes - Cil à Cil Naturel -->
                 <div class="service-card lashes glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
                     <div class="space-y-4">
                         <div class="w-full h-48 rounded-2xl overflow-hidden relative">
@@ -381,7 +383,7 @@
                                 <h3 class="font-serif-title text-2xl font-bold text-plum-900">Pose Cil à Cil Naturel</h3>
                                 <p class="text-xs text-roseGold font-semibold">Durée : ~1h30 • Cils Soie</p>
                             </div>
-                         
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">4 500 DA</span>
                         </div>
                         <p class="text-plum-900/70 text-xs leading-relaxed font-light">
                             Pose effet mascara très naturel. Isolation parfaite cil par cil avec colle médicale ultra-légère sans aucun paquet.
@@ -395,71 +397,21 @@
                     </div>
                 </div>
 
-                <!-- Service Item 2: Spa Massage Relaxant -->
-                <div class="service-card spa glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
-                    <div class="space-y-4">
-                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
-                            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=600" alt="Massage Relaxant Aux Huiles" class="w-full h-full object-cover">
-                            <span class="absolute top-3 right-3 bg-roseGold text-plum-900 text-[11px] font-bold px-3 py-1 rounded-full">
-                                Nouveauté Spa
-                            </span>
-                        </div>
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Massage Relaxant Évasion</h3>
-                                <p class="text-xs text-roseGold font-semibold">Durée : 1h00 • Huiles Chaudes</p>
-                            </div>
-                         
-                        </div>
-                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
-                            Un massage californien enveloppant aux huiles parfumées pour dénouer toutes les tensions nerveuses et musculaires.
-                        </p>
-                    </div>
-                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
-                        <span class="text-[11px] font-semibold text-purple-700 bg-purple-50 px-2.5 py-1 rounded-md">Détente absolue</span>
-                        <button onclick="quickBook('Massage Relaxant Evasion', '6 000 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
-                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Service Item 3: Spa Hammam & Gommage -->
-                <div class="service-card spa glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
-                    <div class="space-y-4">
-                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
-                            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=600" alt="Hammam Privé & Gommage" class="w-full h-full object-cover">
-                        </div>
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Rituel Spa & Gommage Bio</h3>
-                                <p class="text-xs text-roseGold font-semibold">Durée : 1h30 • Savon Noir & Argan</p>
-                            </div>
-                         
-                        </div>
-                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
-                            Bain de vapeur relaxant, gommage traditionnel au savon noir, enveloppement à l'argile précieuse et hydratation profonde.
-                        </p>
-                    </div>
-                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
-                        <span class="text-[11px] font-semibold text-purple-700 bg-purple-50 px-2.5 py-1 rounded-md">Peau douce & purifiée</span>
-                        <button onclick="quickBook('Rituel Spa & Gommage Bio', '7 500 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
-                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Service Item 4: Volume Russe -->
+                <!-- Service Item 2: Lashes - Volume Russe Glamour -->
                 <div class="service-card lashes glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
                     <div class="space-y-4">
                         <div class="w-full h-48 rounded-2xl overflow-hidden relative">
                             <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600" alt="Volume Russe Glamour" class="w-full h-full object-cover">
+                            <span class="absolute top-3 right-3 bg-roseGold text-plum-900 text-[11px] font-bold px-3 py-1 rounded-full">
+                                Volume Intense
+                            </span>
                         </div>
                         <div class="flex justify-between items-start">
                             <div>
                                 <h3 class="font-serif-title text-2xl font-bold text-plum-900">Volume Russe Glamour</h3>
                                 <p class="text-xs text-roseGold font-semibold">Durée : ~2h00 • Bouquets 3D/5D</p>
                             </div>
-                        
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">6 500 DA</span>
                         </div>
                         <p class="text-plum-900/70 text-xs leading-relaxed font-light">
                             Regard intense et fourni tout en légèreté. Bouquets faits main sur mesure adaptés à la force de vos cils.
@@ -471,9 +423,60 @@
                             Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
                     </div>
+                            
                 </div>
 
-                <!-- Service Item 5: Nails -->
+                <!-- Service Item 3: Lashes - Lash Lift Keratin -->
+                <div class="service-card lashes glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
+                    <div class="space-y-4">
+                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=600" alt="Lash Lift Keratin" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Rehaussement & Kératine</h3>
+                                <p class="text-xs text-roseGold font-semibold">Durée : 1h00 • Teinture Inclus</p>
+                            </div>
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">3 500 DA</span>
+                        </div>
+                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
+                            Courbure naturelle spectaculaire sur vos propres cils avec soin nourrissant à la kératine et teinture noire profonde.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
+                        <span class="text-[11px] font-semibold text-plum-900/70 bg-blush px-2.5 py-1 rounded-md">Tenue 6 à 8 semaines</span>
+                        <button onclick="quickBook('Rehaussement & Kératine', '3 500 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
+                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service Item 4: Lashes - Brow Lamination -->
+                <div class="service-card lashes glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
+                    <div class="space-y-4">
+                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&q=80&w=600" alt="Brow Lamination & Restructuration" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Brow Lamination</h3>
+                                <p class="text-xs text-roseGold font-semibold">Durée : 50 min • Restructuration & Teinture</p>
+                            </div>
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">3 800 DA</span>
+                        </div>
+                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
+                            Discipline et redéfinit la ligne de vos sourcils pour un effet plus fourni, discipliné et structuré pendant plusieurs semaines.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
+                        <span class="text-[11px] font-semibold text-plum-900/70 bg-blush px-2.5 py-1 rounded-md">Sourcils Parfaits</span>
+                        <button onclick="quickBook('Brow Lamination', '3 800 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
+                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service Item 5: Nails - Pose Gel & Art -->
                 <div class="service-card nails glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
                     <div class="space-y-4">
                         <div class="w-full h-48 rounded-2xl overflow-hidden relative">
@@ -484,7 +487,7 @@
                                 <h3 class="font-serif-title text-2xl font-bold text-plum-900">Pose Gel / Capsule & Art</h3>
                                 <p class="text-xs text-roseGold font-semibold">Durée : ~1h30 • Manucure Russe</p>
                             </div>
-                         
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">4 000 DA</span>
                         </div>
                         <p class="text-plum-900/70 text-xs leading-relaxed font-light">
                             Rallongement des ongles en gel ou résine, finition impeccable, cuticules soignées et Nail Art personnalisé sur demande.
@@ -498,7 +501,57 @@
                     </div>
                 </div>
 
-                <!-- Service Item 6: Skincare -->
+                <!-- Service Item 6: Nails - Vernis Semi-Permanent -->
+                <div class="service-card nails glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
+                    <div class="space-y-4">
+                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&q=80&w=600" alt="Vernis Semi-Permanent Manucure" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Vernis Semi-Permanent</h3>
+                                <p class="text-xs text-roseGold font-semibold">Durée : ~45 min • Soin des Mains</p>
+                            </div>
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">2 500 DA</span>
+                        </div>
+                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
+                            Pose de vernis longue tenue avec préparation complète de l'ongle naturel et soin hydratant des cuticules.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
+                        <span class="text-[11px] font-semibold text-plum-900/70 bg-blush px-2.5 py-1 rounded-md">Tenue 3+ Semaines</span>
+                        <button onclick="quickBook('Vernis Semi-Permanent', '2 500 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
+                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service Item 7: Nails - Pedicure Spa & Gel -->
+                <div class="service-card nails glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
+                    <div class="space-y-4">
+                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=600" alt="Pédicure Spa Luxe" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Pédicure Spa Luxe</h3>
+                                <p class="text-xs text-roseGold font-semibold">Durée : 1h00 • Bain & Massage</p>
+                            </div>
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">3 500 DA</span>
+                        </div>
+                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
+                            Soin complet des pieds avec bain relaxant, gommage, râpage des callosités, massage et pose de vernis semi-permanent.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
+                        <span class="text-[11px] font-semibold text-plum-900/70 bg-blush px-2.5 py-1 rounded-md">Relaxation Totale</span>
+                        <button onclick="quickBook('Pédicure Spa Luxe', '3 500 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
+                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service Item 8: Skincare - Soin Visage Éclat -->
                 <div class="service-card skincare glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
                     <div class="space-y-4">
                         <div class="w-full h-48 rounded-2xl overflow-hidden relative">
@@ -509,14 +562,118 @@
                                 <h3 class="font-serif-title text-2xl font-bold text-plum-900">Soin Visage Éclat Profond</h3>
                                 <p class="text-xs text-roseGold font-semibold">Durée : 1h15 • Nettoyage & Peeling</p>
                             </div>
-                                                  </div>
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">5 000 DA</span>
+                        </div>
                         <p class="text-plum-900/70 text-xs leading-relaxed font-light">
                             Nettoyage profond des pores, extraction douce, exfoliation et masque sérum hydratant pour un teint immédiatement lumineux.
                         </p>
                     </div>
                     <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
                         <span class="text-[11px] font-semibold text-plum-900/70 bg-blush px-2.5 py-1 rounded-md">Teint Céleste</span>
-                        <button onclick="quickBook('Soin Visage Eclat Profond', '5 000 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
+                        <button onclick="quickBook('Soin Visage Éclat Profond', '5 000 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
+                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service Item 9: Skincare - Hydrafacial Anti-Âge -->
+                <div class="service-card skincare glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
+                    <div class="space-y-4">
+                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1512290900673-7002fda01376?auto=format&fit=crop&q=80&w=600" alt="Soin Anti-Âge Premium" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Hydrafacial Premium</h3>
+                                <p class="text-xs text-roseGold font-semibold">Durée : 1h30 • Infusion de Sérums</p>
+                            </div>
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">7 500 DA</span>
+                        </div>
+                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
+                            Traitement hydro-dermabrasion complet avec réhydratation intense, acides de fruits et luminothérapie LED régénérante.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
+                        <span class="text-[11px] font-semibold text-plum-900/70 bg-blush px-2.5 py-1 rounded-md">Régénération Intense</span>
+                        <button onclick="quickBook('Hydrafacial Premium', '7 500 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
+                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service Item 10: Glam - Brushing & Wave -->
+                <div class="service-card glam glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
+                    <div class="space-y-4">
+                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=600" alt="Brushing & Makeup Glam" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Brushing Glamour & Wave</h3>
+                                <p class="text-xs text-roseGold font-semibold">Durée : ~45min • Soin Protecteur</p>
+                            </div>
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">2 500 DA</span>
+                        </div>
+                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
+                            Brushing volumineux ou ondulations "Wavy" tendances exécutées avec soin protecteur thermique de haute qualité.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
+                        <span class="text-[11px] font-semibold text-plum-900/70 bg-blush px-2.5 py-1 rounded-md">Look Soirée & Fête</span>
+                        <button onclick="quickBook('Brushing Glamour & Wave', '2 500 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
+                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service Item 11: Glam - Maquillage Professionnel -->
+                <div class="service-card glam glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-nude-200">
+                    <div class="space-y-4">
+                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=600" alt="Maquillage Soirée & Mariée" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Maquillage Soirée & Glam</h3>
+                                <p class="text-xs text-roseGold font-semibold">Durée : 1h00 • Produits Luxe</p>
+                            </div>
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">6 000 DA</span>
+                        </div>
+                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
+                            Mise en beauté sophistiquée pour événements et soirées, teint parfait longue tenue et mise en valeur du regard.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
+                        <span class="text-[11px] font-semibold text-plum-900/70 bg-blush px-2.5 py-1 rounded-md">Longue Tenue HD</span>
+                        <button onclick="quickBook('Maquillage Soirée & Glam', '6 000 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
+                            Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service Item 12: Glam - Pack Mariée Royal -->
+                <div class="service-card glam glass-card rounded-3xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border border-roseGold/50 gold-glow">
+                    <div class="space-y-4">
+                        <div class="w-full h-48 rounded-2xl overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=600" alt="Pack Mariée Royal Univers Studio" class="w-full h-full object-cover">
+                            <span class="absolute top-3 right-3 bg-roseGold text-plum-900 text-[11px] font-bold px-3 py-1 rounded-full">
+                                Exclusif
+                            </span>
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Pack Mariée Prestige</h3>
+                                <p class="text-xs text-roseGold font-semibold">Soin + Cils + Ongles + Makeup</p>
+                            </div>
+                            <span class="text-lg font-bold text-plum-900 font-serif-title whitespace-nowrap">22 000 DA</span>
+                        </div>
+                        <p class="text-plum-900/70 text-xs leading-relaxed font-light">
+                            Prise en charge royale complète pour la mariée : soin du visage d'exception, pose cils, onglerie complète, coiffure et maquillage d'art.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-nude-200 flex items-center justify-between">
+                        <span class="text-[11px] font-semibold text-plum-900/70 bg-blush px-2.5 py-1 rounded-md">Sur Mesure</span>
+                        <button onclick="quickBook('Pack Mariée Prestige', '22 000 DA')" class="text-xs font-bold text-plum-900 hover:text-roseGold flex items-center gap-1 transition-colors">
                             Réserver <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
                     </div>
@@ -527,6 +684,7 @@
         </div>
     </section>
 
+    <!-- Portfolio Section -->
     <section id="portfolio" class="py-20 bg-blush/60 border-y border-nude-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
@@ -553,14 +711,14 @@
                 </a>
 
                 <a href="https://www.instagram.com/univers_studio31/" target="_blank" class="group relative aspect-square rounded-2xl overflow-hidden shadow-md">
-                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=500" alt="Espace Spa" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=500" alt="Réalisation Ongles" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-plum-900/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
                         <i class="fa-brands fa-instagram text-3xl text-roseGold"></i>
                     </div>
                 </a>
 
                 <a href="https://www.instagram.com/univers_studio31/" target="_blank" class="group relative aspect-square rounded-2xl overflow-hidden shadow-md">
-                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=500" alt="Réalisation Ongles" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=500" alt="Réalisation Sourcils" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-plum-900/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
                         <i class="fa-brands fa-instagram text-3xl text-roseGold"></i>
                     </div>
@@ -577,6 +735,7 @@
         </div>
     </section>
 
+    <!-- Reviews Section -->
     <section id="reviews" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
@@ -608,7 +767,7 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <p class="text-plum-900/80 text-sm leading-relaxed italic font-light">
-                            « L’institut est très propre et l’accueil est vraiment agréable. L'hygiène est irréprochable et le massage relaxant était tout simplement divin. »
+                            « L’institut est très propre et l’accueil est vraiment agréable. L'hygiène est irréprochable et les techniciennes sont aux petits soins. »
                         </p>
                     </div>
                     <div class="pt-6 mt-6 border-t border-nude-200 flex items-center gap-3">
@@ -680,83 +839,7 @@
         </div>
     </section>
 
-    <!-- SECTION LOCALISATION -->
-    <section id="location" class="py-24 bg-nude-100/60 border-t border-nude-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center space-y-4 mb-14">
-                <span class="text-xs uppercase tracking-[0.3em] text-roseGold font-bold">Où Nous Trouver</span>
-                <h2 class="font-serif-title text-4xl sm:text-5xl font-bold text-plum-900">
-                    Localisation & Accès à Oran
-                </h2>
-                <p class="text-plum-900/70 max-w-2xl mx-auto text-sm font-light">
-                    Notre institut est situé au cœur d'Oran, un espace privé et facile d'accès pour toutes nos clientes.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-                <!-- Info Carte -->
-                <div class="lg:col-span-5 glass-card p-8 rounded-3xl flex flex-col justify-between border border-nude-300 space-y-6">
-                    <div class="space-y-6">
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 rounded-2xl bg-roseGold/20 text-roseGold flex items-center justify-center shrink-0 text-xl border border-roseGold/30">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Notre Adresse</h3>
-                                <p class="text-xs text-plum-900/80 leading-relaxed mt-1">
-                                    Univers Studio, Akid Lotfi <br/>
-                                    Oran, Algérie.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 rounded-2xl bg-roseGold/20 text-roseGold flex items-center justify-center shrink-0 text-xl border border-roseGold/30">
-                                <i class="fa-solid fa-clock"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Horaires</h3>
-                                <p class="text-xs text-plum-900/80 leading-relaxed mt-1">
-                                    Samedi - Jeudi : 10h00 - 19h00<br/>
-                                    Vendredi : Sur RDV Spécial
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 rounded-2xl bg-roseGold/20 text-roseGold flex items-center justify-center shrink-0 text-xl border border-roseGold/30">
-                                <i class="fa-solid fa-square-parking"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-serif-title text-2xl font-bold text-plum-900">Stationnement & Confort</h3>
-                                <p class="text-xs text-plum-900/80 leading-relaxed mt-1">
-                                    Parking sécurisé à proximité, quartier calme, accueil confidentiel et boisson offerte dès votre arrivée.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="https://maps.app.goo.gl/6gHnqUbxqCANct5i8" target="_blank" class="w-full bg-plum-900 hover:bg-plum-800 text-white font-bold text-xs py-4 rounded-2xl text-center shadow-lg transition-all flex items-center justify-center gap-2 border border-roseGold/30">
-                        <i class="fa-solid fa-route text-roseGold text-base"></i>
-                        <span>Ouvrir dans Google Maps</span>
-                    </a>
-                </div>
-
-                <!-- Google Maps Embed -->
-                <div class="lg:col-span-7 rounded-3xl overflow-hidden border-2 border-nude-300 shadow-xl min-h-[350px] relative">
-                    <iframe 
-                        title="Localisation Univers Studio Oran"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103634.34141695427!2d-0.686036125414878!3d35.69873881079367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1281f215d2153eb9%3A0x6a0a03bb1cfed3a!2sOran!5e0!3m2!1sfr!2sdz!4v1700000000000!5m2!1sfr!2sdz" 
-                        class="w-full h-full min-h-[380px] border-0" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- Footer -->
     <footer class="bg-plum-900 text-white pt-16 pb-12 border-t border-roseGold/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
@@ -770,7 +853,7 @@
                         <span class="font-serif-title text-2xl tracking-widest text-white font-bold uppercase">UNIVERS STUDIO</span>
                     </div>
                     <p class="text-xs text-white/70 leading-relaxed font-light">
-                        Institut de beauté & Spa d'exception à Oran. Extensions de cils haute précision, massages, onglerie et soins du visage.
+                        Institut de beauté d'exception à Oran. Extensions de cils haute précision, onglerie, maquillage et soins du visage.
                     </p>
                     <div class="flex space-x-3 pt-2">
                         <a href="https://www.instagram.com/univers_studio31/" target="_blank" class="w-9 h-9 rounded-full bg-white/10 hover:bg-roseGold hover:text-plum-900 transition-colors flex items-center justify-center text-sm">
@@ -866,14 +949,18 @@
                 <div>
                     <label class="block text-xs font-semibold uppercase text-plum-900 mb-1">Soin Souhaité *</label>
                     <select id="modalService" required class="w-full px-4 py-3 rounded-xl bg-nude-50 border border-nude-300 text-xs focus:border-plum-900 focus:outline-none">
-                        <option value="Pose Cil à Cil Naturel">Pose Cil à Cil Naturel </option>
-                        <option value="Volume Russe Glamour">Volume Russe Glamour </option>
-                        <option value="Massage Relaxant Evasion">Massage Relaxant Évasion Spa </option>
-                        <option value="Rituel Spa & Gommage Bio">Rituel Spa & Gommage Bio </option>
-                        <option value="Rehaussement & Kératine">Rehaussement & Kératine </option>
-                        <option value="Pose Gel & Nail Art">Pose Gel & Nail Art </option>
-                        <option value="Soin Visage Éclat">Soin Visage Éclat </option>
-                        <option value="Brushing & Wave">Brushing & Wave </option>
+                        <option value="Pose Cil à Cil Naturel">Pose Cil à Cil Naturel (4 500 DA)</option>
+                        <option value="Volume Russe Glamour">Volume Russe Glamour (6 500 DA)</option>
+                        <option value="Rehaussement & Kératine">Rehaussement & Kératine (3 500 DA)</option>
+                        <option value="Brow Lamination">Brow Lamination (3 800 DA)</option>
+                        <option value="Pose Gel & Nail Art">Pose Gel & Nail Art (4 000 DA)</option>
+                        <option value="Vernis Semi-Permanent">Vernis Semi-Permanent (2 500 DA)</option>
+                        <option value="Pédicure Spa Luxe">Pédicure Spa Luxe (3 500 DA)</option>
+                        <option value="Soin Visage Éclat Profond">Soin Visage Éclat Profond (5 000 DA)</option>
+                        <option value="Hydrafacial Premium">Hydrafacial Premium (7 500 DA)</option>
+                        <option value="Brushing Glamour & Wave">Brushing Glamour & Wave (2 500 DA)</option>
+                        <option value="Maquillage Soirée & Glam">Maquillage Soirée & Glam (6 000 DA)</option>
+                        <option value="Pack Mariée Prestige">Pack Mariée Prestige (22 000 DA)</option>
                     </select>
                 </div>
 
@@ -894,7 +981,7 @@
 
                 <div>
                     <label class="block text-xs font-semibold uppercase text-plum-900 mb-1">Notes / Préférences</label>
-                    <textarea id="modalNotes" rows="2" placeholder="Des détails particuliers (ex: massage dos uniquement, dépose...)" class="w-full px-4 py-3 rounded-xl bg-nude-50 border border-nude-300 text-xs focus:border-plum-900 focus:outline-none"></textarea>
+                    <textarea id="modalNotes" rows="2" placeholder="Des détails particuliers (ex: yeux sensibles, dépose...)" class="w-full px-4 py-3 rounded-xl bg-nude-50 border border-nude-300 text-xs focus:border-plum-900 focus:outline-none"></textarea>
                 </div>
 
                 <button type="submit" class="w-full bg-plum-900 hover:bg-plum-800 text-white font-bold py-3.5 rounded-xl text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-lg">
